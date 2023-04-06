@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Tahoma;
+    src: local(Tahoma) url(".../Windows/Fonts/tahoma.ttf");
+}
+
+@font-face {
+    font-family: Verdana;
+    src: local(Verdana) url(".../Windows/Fonts/verdana.ttf");
+}
+
+body{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #333333;
+
+    font-size: 18px;
+    font-family: serif;
+    line-height: 1.5;
+
+    background-color: #ebebeb;
+}
+
+p{
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+img.secondary-img{
+    width: 100px;
+    height: 120px;
+    margin: 5px;
+    float: left;
+
+    vertical-align: middle;
+}
+
+h1.main-title{
+    font-family: Verdana;
+    text-align: center;
+    column-span: all;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h1.secondary-title{
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: left;
+    font-style: italic;
+    break-after: avoid;
+}
+
+.columns-2{
+    columns: 330px 2;
+    column-gap: 30px;
+    column-rule: 2px solid black;
+}

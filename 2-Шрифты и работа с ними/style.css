@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Algerian;
+    src: local(Algerian) url(".../Windows/Fonts/Algerian.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: Forte;
+    src: local(Forte) url(".../Windows/Fonts/Forte.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: Arial;
+    src: local(Arial) url(".../Windows/Fonts/arial.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: Tahoma;
+    src: local(Tahoma) url(".../Windows/Fonts/tahoma.ttf") format("ttf");
+}
+
+
+.first-paragraph{
+    font-family: Arial, Forte;
+    font-weight: 300;
+}
+
+.second-paragraph{
+    font-family: Tahoma, Algerian;
+    font-weight: 600;
+}
+
+.third-paragraph{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+

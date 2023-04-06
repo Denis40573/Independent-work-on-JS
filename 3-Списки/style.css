@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Freestyle Script";
+    src: local("Freestyle Script") url(".../Windows/Fonts/Freestyle Script.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src: local("Times New Roman") url(".../Windows/Fonts/times") format("ttf");
+}
+
+.body{
+    width: 500px;
+}
+
+h2{
+    font-family: "Times New Roman"; 
+}
+
+.square-item-list{
+    list-style-type: square;
+}
+
+.unmarked-list{
+    list-style-type: none;
+}
+
+.numbered-list{
+    list-style-type: upper-alpha;
+}
+
+.customed-list{
+    list-style-type: "🌊";
+}
