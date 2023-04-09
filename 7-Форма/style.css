@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Freestyle Script";
+    src: local("Freestyle Script") url(".../Windows/Fonts/freescpt.ttf");
+}
+
+@font-face {
+    font-family: Tahoma;
+    src: local(Tahoma) url(".../Windows/Fonts/tahoma.ttf");
+}
+
+@font-face {
+    font-family: Verdana;
+    src: local(Verdana) url(".../Windows/Fonts/verdana.ttf");
+}
+
+body{
+    padding: 20px 580px;
+    color: #1e1f26;
+}
+
+h2{
+   font-family: "Freestyle Script";
+   margin: 30px 10px;
+   font-size: 30px;
+}
+
+form{
+    width: 300px;
+}
+
+fieldset{
+    margin: 0 0 20px;
+    padding: 20px 20px;
+
+    border: 2px solid #ae63e4;
+}
+
+button{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 15px;
+
+    color: #fff;
+    font-weight: bold;
+    background: #47cf73;
+    
+    cursor: pointer;
+}
+
+label, input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    font-size: 18px;
+}
+
+input{
+    border-radius: 7px;
+}
+
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
