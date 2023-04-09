@@ -3,6 +3,12 @@ body{
     font-family: sans-serif;
 }
 
+audio{
+    padding: 20px 10px;
+    width: 500px;
+    height: 100px;
+}
+
 img{
     max-width: 100%;
     height: auto;
