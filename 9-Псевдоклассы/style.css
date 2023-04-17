@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Tahoma;
+    src: local(Tahoma) url(".../Windows/Fonts/tahoma.ttf");
+}
+
+@font-face {
+    font-family: "Engravers MT";
+    src: local("Engravers MT") url(".../Windows/Fonts/engr.ttf");
+}
+
+@font-face {
+    font-family: Verdana;
+    src: local(Verdana) url(".../Windows/Fonts/verdana.ttf");
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: local('Times New Roman') url(".../Windows/Fonts/timesi.ttf");
+}
+
+caption{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 800;
+}
+
+table, td, th{
+    border: 2px solid #222425;
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+th{
+    font-size: 18px;
+    font-family: "Engravers MT", sans-serif;
+}
+
+table td:nth-of-type(2n){
+    background-color: #eeecec;
+}
