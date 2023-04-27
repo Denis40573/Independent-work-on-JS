@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font: 16px/1.5 sans-serif; 
+    background-color: aliceblue;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.article-body{
+    width: 500px;
+}
+
+.article-date{
+    width: 200px;
+    padding-left: 10px;
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+
+.article-title{
+    display: flex;
+    overflow-x: visible;
+
+}
+
+.article-content{
+    font-family: serif;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.columns-3{
+    columns: 500px 3;
+    column-gap: 10px;
+    column-rule: 3px solid black;
+    background-color: #fff;
+}
