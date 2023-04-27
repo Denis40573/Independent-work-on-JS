@@ -25,6 +25,10 @@ caption{
     font-weight: 800;
 }
 
+td:hover {
+    text-decoration: solid underline #e403fd 2px;
+}
+
 table, td, th{
     border: 2px solid #222425;
     padding: 0.75rem;
